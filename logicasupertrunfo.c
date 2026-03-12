@@ -14,7 +14,7 @@ int main() {
     float densidade1;
     float percapita1;
 
-    char estado2[10], codigo2[10], cidade2[20];
+    char estado2[20], codigo2[10], cidade2[20];
     unsigned int pt2, populacao2;
     float area2, pib2;
     float densidade2;
@@ -33,13 +33,13 @@ int main() {
     
 //carta 1:    
     printf("Digite o Estado: \n");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade1);
+    scanf("%s", cidade1);
 
     printf("Digite a População: \n");
     scanf("%u", &populacao1);
@@ -58,13 +58,13 @@ int main() {
 
 //carta 2:    
     printf("Digite o Estado: \n");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
     printf("Digite o código da carta: \n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Digite o nome da cidade: \n");
-    scanf("%s", &cidade2);
+    scanf("%s", cidade2);
 
     printf("Digite a População: \n");
     scanf("%u", &populacao2);
@@ -92,7 +92,7 @@ int main() {
     //     printf("Cidade 2 tem maior população.\n");
     // }
     if (populacao1 > populacao2) {
-    print("Cidade 1 tem a maior população \n");
+    printf("Cidade 1 tem a maior população \n");
     } else {
     printf("Cidade 2 tem a mior população \n");
     }
@@ -116,7 +116,7 @@ int main() {
     }
     
     if (percapita1 > percapita2) {
-    print("Cidade 1 tem o maior pib percapita \n");    
+    printf("Cidade 1 tem o maior pib percapita \n");    
     } else {
     printf("Cidade 2 tem o maior pib percapita \n");    
     }
@@ -127,6 +127,10 @@ int main() {
 
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
-
+    if (populacao1 > populacao2) {
+    printf("A cidade vencedora é Cidade 1!");
+    } else {
+    printf("A cidade vencedora é Cidade 2!");
+    }
     return 0;
 }
