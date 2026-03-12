@@ -94,33 +94,8 @@ int main() {
     if (populacao1 > populacao2) {
     printf("Cidade 1 tem a maior população \n");
     } else {
-    printf("Cidade 2 tem a mior população \n");
+    printf("Cidade 2 tem a maior população \n");
     }
-
-    if (area1 > area2) {
-    printf("Cidade 1 tem a maior area \n");    
-    } else {
-    printf("Cidade 2 tem a maior area \n");    
-    }
-
-    if (pib1 > pib2) {
-    printf("Cidade 1 tem o maior pib \n");    
-    } else {
-    printf("Cidade 2 tem o maior pib \n");    
-    }
-    
-    if (densidade1 < densidade2) {
-    printf("Cidade 1 tem a menor densidade populacional \n");
-    } else {
-    printf("Cidade 2 tem a menor densidade populacional \n");   
-    }
-    
-    if (percapita1 > percapita2) {
-    printf("Cidade 1 tem o maior pib percapita \n");    
-    } else {
-    printf("Cidade 2 tem o maior pib percapita \n");    
-    }
-
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
@@ -128,9 +103,9 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
     if (populacao1 > populacao2) {
-    printf("A cidade vencedora é Cidade 1!");
+    printf("A cidade vencedora é Cidade 1! \n");
     } else {
-    printf("A cidade vencedora é Cidade 2!");
+    printf("A cidade vencedora é Cidade 2! \n");
     }
     return 0;
 }
